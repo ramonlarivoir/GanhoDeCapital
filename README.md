@@ -33,6 +33,10 @@ Este projeto consiste em um programa de linha de comando (CLI) que calcula o imp
     `[{"operation":"buy", "unit-cost":10.00, "quantity": 10000}, {"operation":"sell", "unit-cost":20.00, "quantity": 5000}, {"operation":"sell", "unit-cost":5.00, "quantity": 5000}]`
   - **Saída**:\
     `[{"tax": 0.00},{"tax": 10000.00},{"tax": 0.00}]`
-    
+
+## Oportunidades de melhoria
+- Melhoria no tratamento de erros, como tratamento para dados inconsistentes e formato inválido de dados de entrada.
+- Leitura de arquivo em formato json como uma opção de entrada para o Sistema.
+
 ## Considerações Finais
 Este projeto foi desenvolvido para calcular o imposto a ser pago sobre operações no mercado financeiro de ações, seguindo as regras do Ganho de Capital. Ele oferece uma solução simples para lidar com as transações financeiras e o cálculo de impostos.
